@@ -9,12 +9,14 @@ int main(void)
 {
 	int a;
 
-	a = 0;
-	while
-		(a < 10)
+	for (a = 0; a < 100; a++)
 	{
 		putchar(a + '0');
-		a++;
+		if (a < 99)
+		{
+			putchar(',');
+			putcahr(' ');
+		}
 	}
 	putchar('\n');
 	return (0);

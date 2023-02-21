@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
+ * _islower - Entry point
+ * @c: The character to be checked
  * Return: 0 (Success)
  */
 

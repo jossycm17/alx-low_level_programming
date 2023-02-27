@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <mian.h>
+#include "mian.h"
 
 /**
  * print_rev - print string

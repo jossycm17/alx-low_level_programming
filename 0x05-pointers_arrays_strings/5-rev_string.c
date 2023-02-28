@@ -1,4 +1,4 @@
-#include "main.h>"
+#include "main.h"
 
 /**
  * rev_string - reversing string
@@ -16,6 +16,6 @@ void rev_string(char *s)
 	{
 		tmp = s[index];
 		s[index] = s[len - index - 1];
-		s[len - index - 1] = temp;
+		s[len - index - 1] = tmp;
 	}
 }

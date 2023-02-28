@@ -1,5 +1,5 @@
+#include "main.h"
 #include <stdio.h>
-#include "mian.h"
 
 /**
  * print_rev - print string

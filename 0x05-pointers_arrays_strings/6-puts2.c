@@ -1,7 +1,8 @@
-@include "main.h"
+#include "main.h"
+
 /**
  * puts2 - print every other character
- * @std: the string to be printed
+ * @str: the string to be printed
  * Return: void
  */
 
@@ -14,7 +15,7 @@ void puts2(char *str)
 	{
 		j++;
 	}
-	for (i < 0; i < j; i += 2)
+	for (i = 0; i < j; i += 2)
 	{
 	_putchar(str[i]);
 	}

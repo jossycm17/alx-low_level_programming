@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strncpy - copies at most an inputted number
+ * _strncpy - Copies at most an inputted number
  * @dest: storing the string copy
  * @src: the source string
  * @n:the maximum number of byte copied
- * Retun: A pointer to the result string
+ * Return: A pointer to the result string
  */
 
 char *_strncpy(char *dest, char *src, int n)

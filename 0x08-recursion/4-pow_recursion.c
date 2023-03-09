@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - returnthe value of x raised to the power of y
- * @x: the value to multiply 
+ * @x: the value to multiply
  * @y: the time to multiply
  * Return: the value meltiplied y times
  */

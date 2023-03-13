@@ -3,7 +3,7 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * chcek_num - check if there ias a string
+ * check_num - check if there ias a string
  * @str: arrey str
  * Return: Always 0 (Success)
  */

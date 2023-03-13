@@ -3,19 +3,20 @@
 #include <stdio.h>
 
 /**
- * main - print number of the argument
+ * main - multiplication of two number
  * @argc: count argument
  * @argv: arguments
- * Return: Always 0 (Success)
+ * Return: 0 if true 1 if false
  */
 int main(int argc, char *argv[])
 {
 	int a, b;
-	if (argc == 1)
+
+	if (argc == 3)
 	{
-		a = atio(argv[1]);
-		b = atio(argv[2]);
-		printf("%d\n", a *b);
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", a * b);
 		return (0);
 	}
 	printf("Error\n");
